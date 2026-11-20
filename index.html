@@ -1,1 +1,1050 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+		<meta name="author" content="scysta">
+		<title>Radicalizándote de la IA</title>
+		<meta name="description" content="Desvaríos para que dejes la Inteligencia Artificial.">
+
+		<link rel="icon" href="/favicon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+		<link href="css/posts.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body id="top">
+		<a id="back-to-top" href="#top" title="Back to top?">
+			<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+				<path d="M0 0h24v24H0z" fill="none"/>
+				<g fill="currentColor">
+					<path d="M8 21h8v-2H8zm0-4h8v-2H8z"/>
+					<path d="M8 17h2v-6H8zm-5-4h5v-2H3zm0-2h2V9H3zm2-2h2V7H5zm2-2h2V5H7zm2-2h2V3H9zm2-2h2V1h-2zm2 2h2V3h-2zm2 2h2V5h-2zm2 2h2V7h-2zm2 4h2V9h-2zm-3 0h3v-2h-3zm-2 4h2v-6h-2z"/>
+				</g>
+			</svg>
+		</a>
+		<main id="content" class="float-box">
+			<header>
+				<h1>Radicalizándote<br>de la IA</h1>
+			</header>
+
+			<!-- --- Table of Contents --- -->
+			<div class="toc">
+				<h2>Table of Contents</h2>
+				<ul>
+					<li><a href="#start">Start!</a></li>
+					<li><a href="#productivity">Productividad...</a></li>
+					<li><a href="#everything-else">... y todo lo demás</a></li>
+					<li><a href="#energy-water-costs">Energía, agua y costos</a></li>
+					<li><a href="#copyright">Copyright</a></li>
+					<li><a href="#art">Arte y humanidad</a></li>
+					<li><a href="#trust">¿En quién puedes confiar?</a></li>
+					<li><a href="#mental-health">Salud mental</a></li>
+					<li><a href="#solutions">Okay, entiendo, me convenciste. ¿Pero qué
+						puedo hacer al respecto?</a></li>
+					<li><a href="#whatever">Pero en fin...</a></li>
+				</ul>
+			</div>
+
+			<!-- --- Post Summary --- -->
+			<details class="float-box" open>
+				<summary>Resumen</summary>
+				<div class="details-content">
+					<ul>
+						<li>
+							El post es mi opinión (negativa) acerca de los LLMs.
+						</li>
+						<li>
+							Intento dar puntos variados para cubrir la mayoría de los tipos de daños que
+							producen (mentales, copyright, medioambientales, privacidad, etc.).
+						</li>
+						<li>
+							La "IA" no incrementa tu productividad, reduce tu inteligencia,
+							te incita a apostar, refuerza pensamientos oscuros, roba de todos
+							los humanos en la Tierra, es utilizada en vigilancia masiva y
+							como arma de guerra, destruye el planeta, hace la vida más
+							costosa, aísla a la gente, y es simplemente basura.
+						</li>
+						<li>
+							Si algo de esto se queda contigo y te permite repensar tu uso o
+							cuestionar si es que vale realmente la pena, por favor extiende
+							estos valores a otras personas. Solo así habré cumplido lo que
+							quería lograr.
+						</li>
+					</ul>
+				</div>
+			</details>
+
+			<div class="callout info float-box">
+				<h3>Nota</h3>
+
+				<p>
+					La mayoría de las referencias de este post son fuentes en inglés.
+					Sin embargo, acceder a herramientas de traducción no es
+					difícil (una que recomiendo es <a href="https://deepl.com/translator">Deepl</a>).
+				</p>
+			</div>
+
+			<!-- --- Post content --- -->
+			<p id="start">
+				En los círculos que frecuento en Internet es normal ver odio hacia la
+				IA/LLMs. Gran parte de ese círculo son artistas, desarrolladores indies de
+				videojuegos y personas que simplemente le dan un mayor valor al esfuerzo
+				que alguien realiza al hacer algo que le gusta; probablemente entonces se
+				explique este odio. Pero en ese círculo también hay desarrolladores de
+				software &mdash;supuestamente más prácticos y no necesariamente alineados con
+				las artes&mdash;, que manifiestan el mismo sentimiento. Y yo, por supuesto, soy
+				una de ellos.
+			</p>
+
+			<p>
+				Espero que este post no sea pesado, incluso si es largo. Mi intención no
+				es villanizar o demonizar a las personas que tienden a utilizar este
+				tipo de <em>herramientas</em>
+				(incluso si algunos de ellos sí lo merecen);
+				solo quiero intentar extender lo que he visto y leído acerca del tema
+				con tal de que al menos pueda cambiar de parecer a una persona. Si este
+				post resuena contigo, no estás sole.
+			</p>
+
+			<h2 id="productivity">Productividad...</h2>
+
+			<p>
+				No voy a negar su utilidad. Con todos los modelos y plataformas
+				distintas que ofrecen servicios directos o derivados de ella hay poca
+				cosa hoy en día que un LLM no haga. No es difícil encontrar un testimonio
+				de alguien que diga que ha aumentado su "productividad," que ahora puede
+				hacer cosas que antes nunca había pensado ser capaz, que aprende más
+				rápido, entiende mejor o puede asignar tiempo a cosas que sí <em>le
+					importan</em>.
+			</p>
+
+			<p>
+				Por supuesto, todo esto no siempre es gratis:<sup><a id="ft1" href="#fn1">1</a></sup>
+				normalmente estos servicios utilizan "tokens" como medida para determinar
+				el uso que se le da y suele estar ligada al cómputo que se necesita para
+				procesar texto o imágenes. Para que el modelo entienda lo que se le
+				envía debe "tokenizarlo"; las imágenes suelen guardar mucha más
+				información que texto, lo que explica que se llegue más rápido al
+				límite de solicitudes en un "chat". Estos tokens son la moneda de
+				intercambio definida para estas interacciones y por supuesto distintos
+				niveles de suscripción ofrecen límites de uso mayores.
+			</p>
+
+			<p>
+				Pero si estás en este post probablemente ya sabes todo esto. Mi problema
+				con decir que un LLM aumenta la productividad tiene dos partes:
+			</p>
+			<ol>
+				<li>
+					¿Cuál es la idea? Si comenzamos a hablar de quiénes realmente
+					se benefician de esta cantidad de resultados en poco tiempo (y prometo
+					ahondar más a fondo en esto luego) se llega inmediatamente a quienes
+					manejan compañías: CEOs (y derivados) e inversionistas; gente que
+					normalmente no tiene idea de cómo se está logrando lo que sea que
+					ofrezca la empresa (y esto es muy normal en empresas de software
+					medianamente grandes). <em>No les importa,</em>
+					solo quieren ver
+					resultados y generar ganancias, ciegos del esfuerzo que existe. Y si
+					de algo estoy segura actualmente es que si no eres CEO o no
+					tienes abundancia de recursos, van a querer que tu productividad
+					sea lo más alta posible, incluso si eso significa
+					<a href="https://aftermath.site/naughty-dog-crunch-intergalactic-neil-druckmann/">crunch</a>
+					o
+					<a href="https://aftermath.site/grand-theft-auto-vi-delay-union-protest-rockstar/">condiciones de trabajo horribles.</a>
+				</li>
+				<li>
+					<strong>Ni siquiera hay pruebas</strong>.
+					Un
+					<a href="https://fion.ac/jellyfish.pdf">
+						reciente estudio de Harvard
+					</a>
+					ha concluido que empresas de desarrollo de software que han adoptado
+					agentes LLM en su producción presentan un
+					<strong>0 por ciento</strong>
+					de aumento promedio neto en su productividad.<sup><a id="ft2" href="#fn2">2</a></sup>
+					Si bien la cantidad de
+					código (medido en líneas) aumenta, el tiempo requerido para revisar y
+					corregirlo &mdash;porque además los modelos tienen la osadía de no
+					entregar resultados sin errores&mdash; es inversamente proporcional
+					al que se gana. Una experiencia común
+					en la gran mayoría de desarrolladores en la industria, anterior
+					incluso a que apareciesen los LLMs, es que se
+					gasta más tiempo leyendo código que escribiéndolo; producir líneas
+					nunca fue el cuello de botella.
+				</li>
+			</ol>
+
+			<p>
+				Quizá nunca entienda esta obsesión por la productividad. ¿Qué pasó con
+				los amigos que hicimos en el camino? ¿Qué pasó con el
+				<a href="https://es.wikipedia.org/wiki/El_archivo_de_las_tormentas">viaje antes que el destino?</a>
+				Bromeo, por supuesto. A medias. Cuando quiero crear algo quiero saber
+				exactamente lo que hice y cómo;
+				conocer mi propio sistema o creación desde lo más profundo.
+				<em>Este mismo sitio web</em>
+				fue creado porque quería aprender HTML y CSS. Y sí, por supuesto que
+				no es perfecto o el más bonito o el que tiene más funcionalidades
+				(por qué querría eso de todas maneras, es un maldito blog), pero
+				<strong>es mío,</strong>
+				y siento que más gente debería sentir orgullo
+				y mostrar las cosas que crea solo porque sí. Es gente que se tomó el
+				tiempo de crear algo que le importa con sus propias manos; hay
+				intención detrás de ello, no solo de crear, sino también de comunicar,
+				discutir, ayudar, evocar.
+			</p>
+
+			<p>
+				Es un poco cansador de una buena manera que la fábula
+				de
+				<a href="https://es.wikipedia.org/wiki/La_liebre_y_la_tortuga">La Liebre y la Tortuga</a>
+				millones de veces repetida a lo largo de la historia siga probando que
+				el problema nunca fue la velocidad: es el cuidado, atención y esfuerzo
+				que se le da a las cosas, y solo así se puede llegar a algo de calidad,
+				sea la definición que se le dé.
+			</p>
+
+			<p>
+				La "IA" va en contra de todo eso.
+			</p>
+
+			<h2 id="everything-else">... y todo lo demás</h2>
+
+			<p>
+				Pero eso es solo una parte, y probablemente la menos importante. No me
+				creo capaz de hacer un mejor trabajo en resumir todo el daño que provoca
+				que Anthony Moser en su post
+				"<a href="https://anthonymoser.github.io/writing/ai/haterdom/2026/05/07/odio-la-ia.html">Odio la IA</a>,"
+				pero espero al menos contribuir a su movimiento.
+			</p>
+
+			<h2 id="energy-water-costs">Energía, agua y costos</h2>
+
+			<p>
+				En caso de que no sea sabido todo servidor o servicio en Internet
+				necesita infraestructura para funcionar: un computador o grupo de
+				computadores conectados a la red en algún lado del mundo. Estos
+				edificios, especialmente para operaciones relacionadas a LLMs, suelen
+				ser llamados "centros de datos" y necesitan electricidad para funcionar.
+			</p>
+
+			<p>
+				Para efectos de esta sección, podemos separar los procesos que están
+				involucrados en un LLM en dos: la interacción
+				con los consumidores (solicitudes de generación, resúmenes, etc.) y el
+				entrenamiento del modelo. Entre ambos el segundo es considerablemente
+				más intensivo en términos de cómputo, y por lo tanto energía, pero
+				ocurre solo al principio de su creación. El
+				problema es que no se sabe realmente cuánta es necesaria, dado que las
+				compañías no son obligadas (ni lo hacen por su propia voluntad como
+				las escorias que son) a reportar el uso energético y los costos que
+				contemplan, muchas veces incluso
+				<a href="https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid">aprovechando reducciones de impuestos.</a>
+			</p>
+
+			<p>
+				Lo único que se puede tener es una estimación de estos procesos. El MIT
+				<a href="https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/">realizó un análisis</a>
+				el año pasado
+				bastante exhaustivo del consumo de energía dedicado a los LLMs en
+				Estados Unidos. El artículo es interesante y deberías leerlo si tienes
+				tiempo, pero hay algunos puntos que me gustaría destacar:
+			</p>
+
+			<ul>
+				<li>Desde 2017 hasta 2023 la energía dedicada a centros de datos
+					aumentó alrededor del 2% hasta un 4.4% de la energía total generada
+					por Estados Unidos. Se estima que para el 2028 aumente a un 12%, en
+					donde la mitad de ello está completamente dedicada a LLMs.</li>
+				<li>En 2024 el estado de Virginia reportó que el residente promedio
+					podría pagar $37.50 dólares <em>adicionales</em>
+					cada mes por costos energéticos de los centros de datos.</li>
+				<li>La energía utilizada para procesar una solicitud depende de su tipo
+					y del tamaño del modelo. En texto, Llama 3.1 8B, un modelo de código
+					abierto con 8 billones de parámetros (pequeño), necesita la energía
+					necesaria para prender un microondas por 1 décima de segunda; Llama
+					3.1 405B (tamaño más cercano a la realidad), por 8 segundos. Generar
+					imágenes requiere menos que texto, normalmente porque requieren menos
+					parámetros para producir algo convincente. En cambio, para videos el
+					consumo aumenta considerablemente, incluso para modelos de código
+					abierto que suelen estar ligeramente por detrás de los modelos
+					comerciales: CogVideoX puede generar videos de solo 5 segundos a 16
+					imágenes por segundo (más bajo que grabar un video con un celular
+					decente). Para ello utiliza la energía necesaria para encender un
+					microondas por <em>una hora entera</em>.<sup><a href="#fn3" id="ft3">3</a></sup></li>
+			</ul>
+
+			<p>
+
+				Pero podrás pensar "Okay, pero ¿qué importa? La tecnología avanza y los
+				consumos de energía siempre están en aumento" y tendrías razón, no hay
+				un futuro sin electricidad. Pero cuando la principal fuente de energía
+				utilizada en todo el mundo son combustibles fósiles, para una
+				herramienta que no es realmente revolucionaria (y no lo será por
+				décadas) su huella de carbono es impresionante. Que los LLMs hayan
+				aumentado la demanda de energía tan rápido en tan poco tiempo solo hace
+				que las empresas (ir)responsables tomen atajos para suplir sus centros
+				de datos.
+			</p>
+
+			<p>
+				Pero digamos que no crees en el calentamiento global (y si es verdad,
+				puedes bien irte de este post) o directamente no te interesa y crees
+				que es un mal menor. ¿Qué pasa con las personas? Existen varios
+				artículos en donde se reporta
+				<a href="https://www.reuters.com/world/americas/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/">peor calidad del aire,</a>
+				costos de vida incrementados (agua y electricidad) y
+				<a href="https://phys.org/news/2026-06-ways-centers-endanger-local-communities.pdf">altos niveles de polución de sonido,</a>
+				especialmente en barrios marginales.<sup><a href="#fn4" id="ft4">4</a></sup>
+				<a href="https://news.harvard.edu/gazette/story/2026/04/why-are-communities-pushing-back-against-data-centers/">Comunidades enteras</a>
+				se han unido para oponerse a estas situaciones y
+				<a href="https://www.reuters.com/world/us/americans-wary-ai-driven-data-center-boom-reutersipsos-poll-shows-2026-06-11/">mostrar su descontento.</a>
+				¿Cómo no es evidente que existe un problema?
+			</p>
+
+			<p>
+				Pero digamos, <em>de nuevo</em>, que no te interesan las personas. Los
+				<a href="https://www.reuters.com/world/asia-pacific/googles-15-billion-india-data-centre-project-battles-water-wildlife-concerns-2026-08-06/">animales también se ven afectados.</a>
+				Estas empresas están sobrecargando las fuentes de agua locales
+				y generan aumentos de temperatura en las zonas cercanas; que no solo se
+				limita a los centros de datos, sino que también a las centrales que
+				generan la energía necesaria para suplirlos. Claramente esto afecta a
+				los ecosistemas naturales. ¿Ya mencioné que también contribuyen al
+				calentamiento global?
+			</p>
+
+			<p>
+				Lo peor es que todo esto
+				<a href="https://www.reuters.com/sustainability/can-data-centers-be-built-sustainably-2026-10-08/">sí puede hacerse de manera sostenible.</a>
+				Los ciclos de agua que se utilizan para el enfriamiento de los servidores
+				pueden realizarse de forma cerrada, en donde no hay pérdida de agua
+				&mdash;o por lo menos es mínima&mdash;, y también se puede optar a
+				utilizar fuentes de energía renovable. En Suiza aprovechan el calor
+				generado por estos centros de datos para
+				<a href="https://www.swissinfo.ch/eng/archive-science/a-data-center-that-also-heats-homes/88787019">calentar hogares en Geneva.</a><sup><a href="#fn5" id="ft5">5</a></sup>
+				Pero a las empresas no les interesa porque "no les conviene".
+			</p>
+
+			<p>
+				Esa es la verdad de los fraudes como El*n M*sk, S*m *ltman y J*ff B*zos.
+				Como mínimo se esperaría que tuviesen al menos una pizca de
+				inteligencia para ser los líderes de estas organizaciones. Y luego
+				<strong>(Trigger Warning!: Xitter post)</strong>
+				ves que Grok, la "IA" de Xitter, fue entrenada para ser
+				<a href="https://archive.ph/zThfa">nazi</a>
+				y
+				<a href="https://www.bloomberg.com/news/articles/2026-01-02/grok-posts-sexual-images-of-minors-after-lapses-in-safeguards">pedófila.</a>
+			</p>
+
+			<h2 id="copyright">Copyright</h2>
+
+			<p>
+				Si me conoces en la vida real no me extrañaría que creas que estoy en
+				contra del
+				<a href="https://es.wikipedia.org/wiki/Copyright">copyright,</a>
+				y si bien tiene un grado de verdad, no es completamente
+				cierto. En teoría es algo natural: si creaste algo con tus propias manos
+				no solo tienes el derecho de que te pertenezca sino que de hacer lo que
+				quieras con ello &mdash;en esencia proteger legalmente tu propiedad.
+				Desgraciadamente, en la práctica muchas veces se aplica de formas
+				maliciosas.
+			</p>
+
+			<p>
+				He visto <a href="https://www.inverse.com/entertainment/hbo-max-infinity-train-canceled-animation">series morir</a>
+				y otras ser
+				<a href="https://screenrant.com/why-the-owl-house-was-canceled-after-season-3/">apresuradas</a>
+				sin poder llegar a la visión de <em>sus propios creadores</em>
+				por culpa del copyright. Cantantes tener que hacer
+				<a href="https://time.com/5949979/why-taylor-swift-is-rerecording-old-albums/">esfuerzos enormes</a>
+				por recuperar lo que debió siempre ser suyo.<sup><a href="#fn6" id="ft6">6</a></sup>
+				Desarrolladores de videojuegos
+				<a href="https://www.pcgamer.com/disco-elysium-studio-declares-resolution-of-legal-battle-while-two-of-its-ousted-founders-insist-the-fight-continues-they-will-not-silence-us/">perdiendo sus trabajos de años</a>
+				solo por la avaricia de otros. Y sí, "es legalmente correcto", "estaba
+				en el contrato" y blah, blah, blah, pero que sea legal no significa que
+				esté bien. Muchos de estos casos son personas que perdieron su
+				seguridad personal y económica. A las empresas e inversionistas
+				no les importa. ¿Comienzas a ver un patrón?
+			</p>
+
+			<p>
+				Pienso entonces que es entendible que esté tan molesta cuando los
+				modelos más grandes y populares están entrenados con lo que se podría
+				llamar "el robo de labor más grande en la historia de la humanidad."
+				Pero no me creas a mí, no podría quitarle el crédito al
+				<a href="https://www.niemanlab.org/2026/09/an-astonishing-theft-of-unprecedented-proportions-court-records-show-what-microsoft-and-openai-actually-thought-about-ai-training/">director de ciencias aplicadas de Microsoft</a>
+				hablando <em>de lo que las empresas mismas hicieron</em>
+				en el
+				<a href="https://www.niemanlab.org/2026/09/trump-administration-says-a-new-york-times-win-in-openai-lawsuit-would-threaten-national-security-and-hurt-small-newsrooms/">caso del New York Times v. OpenAI/Microsoft.</a>
+				No podría inventarlo ni aunque quisiera.
+			</p>
+
+			<p>
+				Lo que se logró con esto es que hoy puedas pedirle a un LLM que
+				genere capítulos de una novela en el estilo de J. R. R. Tolkien,
+				William Gibson, o J. K. Rowling
+				(<a href="https://rationalwiki.org/wiki/J._K._Rowling#Yer_a_transphobe.2C_Joanne">no sé por qué querrías hacer eso,</a>
+				pero okay); que rehaga imágenes para que parezcan algo
+				<a href="https://kotaku.com/hayao-miyazaki-ai-animation-voice-actors-strike-writers-1850893125">hecho por el Estudio Ghibli;</a>
+				o que directamente haga "ilustraciones" tomando técnicas de tu
+				artista favorito..., excepto que podrías apoyarles directamente
+				en vez de disfrutar material robado.
+			</p>
+
+			<p>
+				Y sé que no es necesario decirlo, pero robar arte es malo, especialmente
+				si es de artistas cuyo arte inicialmente no genera las ganancias
+				necesarias para vivir de ello. Incluso aplaudiría un poco si
+				estas empresas les diesen partes de sus "enormes ganancias e
+				inversiones" a aquellos a quienes les robaron para entrenar sus modelos,
+				pero eso solo demuestra lo baja que está la barra.
+			</p>
+
+			<p>
+				Esa suele ser la parte más oscura de los derechos de autor, pero
+				curiosamente existe una zona que muchas personas consideran más gris,
+				incluso blanca: código y software. Plataformas como
+				<a href="https://github.com">GitHub</a>
+				o
+				<a href="https://gitlab.com">GitLab</a>
+				actúan como repositorios en donde programadores y desarrolladores
+				pueden publicar sus proyectos junto con su código fuente para que todos
+				lo vean. Alguien más puede venir, leer el código en su totalidad y
+				entender cómo está implementado un sistema; incluso puede contribuir a
+				él si tiene el tiempo o quiere arreglar o modificar alguna
+				funcionalidad para su uso personal. Esto es lo que se suele llamar
+				<strong>Software de Código Abierto</strong>
+				(OSS por sus siglas en inglés).
+			</p>
+
+			<p>
+				Lo que quizé muchas personas fallan en ver es que estos programas y
+				librerías, incluso si su código es de libre acceso, tienen
+				<a href="https://opensource.org/licenses">licencias de uso</a>
+				que definen lo que quien creó el código permite que hagas con él. Muchas
+				son permisivas, como la licencia
+				<a href="https://es.wikipedia.org/wiki/Licencia_MIT">MIT</a>
+				que permite copia y distribución comercial y personal, y otras no tanto,
+				como la licencia
+				<a href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text">AGPL</a>
+				&mdash;actualmente mi personal favorita&mdash;
+				que obliga a distribuir la fuente de cualquier modificación a un
+				programa en caso de publicar la nueva versión.
+			</p>
+
+			<p>
+				¿Qué pasa cuando utilizas esencialmente todo el código disponible en
+				Internet para entrenar LLMs incluso si presentan licencias no
+				permisivas? ¿Legalmente? Nada. No es
+				completamente claro si las cláusulas de estas licencias aplican a estas
+				actividades ya que no hay muchos casos en donde
+				<a href="https://arxiv.org/abs/2302.13681">esto se ha disputado</a>.
+				¿Moralmente? Una empresa multi-millonaria está robando para su propio
+				beneficio el trabajo de
+				personas que ofrecen un producto por el bien común y para fomentar
+				comunidades de apoyo mutuo, sin mencionar que en muchos casos es en
+				contra de su voluntad. Si eso no es distópico no sé qué es.
+			</p>
+
+			<h2 id="art">Arte y humanidad</h2>
+
+			<p>
+				Y así por fin llegamos a probablemente la parte más discutida en la
+				ética de la "IA": el arte. Cuando hablo de arte me refiero, por
+				supuesto, a ilustraciones digitales, pinturas, peliculas, series,
+				libros, poemas, música, videojuegos, manualidades, y esencialmente
+				todo lo que tenga expresión creativa e intención.
+			</p>
+
+			<p>
+				Los modelos son inherentemente incapaces de tener estas dos
+				características. <em>No son modelos racionales,</em>
+				no tienen sentimientos y no son verdadera inteligencia artificial. La
+				única forma de que puedan generar una respuesta (sea texto o una
+				imagen) es a través de cálculos matemáticos <em>puramente
+					probabilísticos</em>
+				para determinar qué es lo que una persona respondería (y si bien
+				recuerdas todo esto entrenado en material robado).
+			</p>
+
+			<p>
+				Y supongo que lo habrás adivinado, pero es por eso que insisto tanto en
+				llamarlos "modelos" en vez de IA. Si lo hiciese estaría insultando no
+				solo a toda la ciencia ficción que habla sobre qué es que un androide
+				sea una persona,<sup><a id="ft7" href="#fn7">7</a></sup>
+				sino que también a la propia tecnología interna en la que están
+				basados. No es improbable que en un futuro lejano se avance lo
+				suficiente para alcanzar esto (y sé que vendrá con su propio conjunto
+				aún más grande de problemas), pero lo que tenemos hoy es solo una burla.
+			</p>
+
+			<p>
+				Este mismo mes se publicó <a href="https://arxiv.org/html/2609.16247v1">un
+					paper estudiando cómo los modelos reaccionan ante "señales de dolor".</a>
+				A partir de él apareció un proyecto en GitHub (actualmente no
+				disponible) llamado
+				<a href="https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/">cámara
+					de tortura de IA,</a>
+				en donde se les dan a varios modelos opciones como aliviar el dolor de
+				otro, o traspasar el propio. Podemos discutir todo lo que quieras
+				acerca de si ver modelos "sentir" dolor e intentar aliviarlo en varios
+				experimentos es algo psicópata o no, pero a lo que realmente quiero
+				llegar con esto es hablar sobre la discusión que se creó acerca de si
+				los modelos son sintientes.
+			</p>
+
+			<p>
+				<em>¡Espero que sea evidente que la respuesta es no!</em>
+				De hecho sería horrible si lo fueran: tendríamos a quién sabe cuántos
+				seres esclavizados solo para que produzcan resúmenes o videos graciosos
+				para que puedas mandarlos a tu familia.<sup><a id="ft8" href="#fn8">8</a></sup>
+				Así que si algún día te sientes mal por tu modelo favorito por
+				cualquier razón, creo que lo mejor es liberarlo de su sufrimiento...
+			</p>
+
+			<p>
+				En fin, volvamos al arte. Una persona puede encontrar arte en cualquier
+				cosa, incluso si no se creó con el propósito de serlo. Yo no soy buena
+				en matemáticas, por ejemplo, pero me gustan y reconozco que existe algo
+				artístico en su estructura: alguien tomó y creó ideas que
+				posiblemente eran intuitivas <em>bajo su propia experiencia</em>
+				y decidió formular las bases de un campo sumamente bien diseñado. Esto
+				no significa que las matemáticas sean un arte (creo que eso podría
+				estar abierto a discusión), pero pueden serlo para alguien &mdash;está
+				también relacionado a un tema muy interesante acerca de la diferencia
+				entre arte y habilidad/profesión. Por otro lado alguien puede
+				encontrar arte en la naturaleza, pero la naturaleza no lo hizo con ese
+				propósito; no tiene una verdadera intención.
+			</p>
+
+			<p>
+				<em>Crear arte es algo humano.</em>
+				Hay una <strong>intención</strong>
+				detrás de una obra, alguien que quizo expresar lo que sentía, incitar
+				a la reflexión, contar una historia, o simplemente entretener. Un
+				modelo no puede hacer eso: puede seguir instrucciones y producir algo
+				que cree es lo adecuado, pero no entender el propósito ni crear algo
+				nuevo porque todo lo que conoce y podrá conocer es con lo que fue
+				entrenado. Y sí, todo arte es derivativo, es imposible estar en una
+				burbuja y no tener influencia alguna al crearlo; es hasta bueno
+				tener referencias y poder inspirarte. Pero es muy diferente eso a que
+				un modelo <strong>robe</strong>
+				técnicas de dibujo, estilos de escritura, o composiciones de sonidos
+				sin permiso ni créditos a nadie.
+			</p>
+
+			<p>
+				Y creo que eso es algo grave. Los modelos aíslan a las personas.
+				En vez de pedir ayuda o consejo a otro ser humano le pides a una
+				máquina que lo resuelva por ti. Incluso al buscar en cualquier motor de
+				búsqueda, por más impersonal que sea, estás en su mayoría leyendo
+				interacciones humanas que a mi juicio tienen muchísimo más valor.
+			</p>
+
+			<p>
+				El arte <em>crea comunidades</em>
+				de apoyo mutuo, muy parecido a lo que
+				ocurre en <a href="https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/">las
+					comunidades de software de código abierto.</a>
+				Creo que no deberíamos perder eso solo porque lo otro es más fácil.
+				Nunca se ha tratado de que sea fácil.
+			</p>
+
+			<p>
+				Se trata de que importe.
+			</p>
+
+			<h2 id="trust">¿En quién puedes confiar?</h2>
+
+			<p>
+				Los modelos con el tiempo se han vuelto cada vez más avanzados, capaces
+				de producir material muchas veces indistinguible de lo que haría una
+				persona. Si bien hay ciertas pistas claras como las manos con seis
+				dedos o el uso excesivo de emojis y em dashes "&mdash;", ya no son
+				tan frecuentes y comienza a resultar difícil detectar algo hecho por un
+				modelo a simple vista.
+			</p>
+
+			<p>
+				Yo, en general, soy paranoica. Detesto tener que compartir mis datos a
+				empresas que no me dan la seguridad de que los guardarán bien y tomo
+				muchas precauciones con respecto a mi propia privacidad en Internet
+				(supongo que ahora un poco menos considerando este blog, pero al menos
+				no es tan probable que gente indeseada llegue aquí). No confío en las
+				compañías, y desgraciadamente ahora no confío en nadie en Internet.
+				En cada foto o video que veo, cada post que leo, o cada canción que
+				escucho siempre estoy con la guardia en alto y me pregunto si es algo
+				producido por un LLM.
+			</p>
+
+			<p>
+				Y okay, esas son cosas relativamente inofensivas, pero ¿qué pasa cuando
+				dejan de serlo? Ya mencioné arriba que Grok generaba sin protestar
+				imágenes comprometedoras de personas adultas
+				(<strong>¡y menores de edad!</strong>), además
+				de expandir ideas fascistas. Por supuesto, no es el único que se
+				comporta de esa manera. Un modelo como tal es imparcial; no puede
+				razonar, así que no sabe si lo que dice está bien, o si una idea
+				política es mejor
+				que otra. Pero quienes lo entrenaron no lo son y claro que
+				tienen una agenda que mantener.
+			</p>
+
+			<p>
+				Las respuestas que dan tienen un claro sesgo y pueden inventar información
+				sin saber que no es real. Y dada la dependencia actual de las personas
+				a los LLMs, se ha demostrado que tienden a
+				<a href="https://www.404media.co/scientists-are-increasingly-worried-ai-will-sway-elections/">manipular
+					la opinión popular e influir directamente en votaciones políticas,</a>
+				y a <a href="https://hai.stanford.edu/news/covert-racism-ai-how-language-models-are-reinforcing-outdated-stereotypes">perpetuar
+					estereotipos racistas y sexistas.</a>
+				Si lo combinamos con que estos modelos son controlados por empresas
+				que no tienen los mejores intereses, el problema es evidente.
+			</p>
+
+			<p>
+				De nuevo, es cada vez más difícil confiar; estarías bien de no
+				confiar en mí. Pero prometo que mi <strong>intención</strong>
+				es a favor de las personas, algo que no puedo decir de los LLMs.
+				Freya Holmér, desarrolladora de videojuegos y de herramientas para
+				motores gráficos como Unity, dijo en un debate online que creía que
+				los modelos <q cite="https://youtu.be/yqU_f7deBwc?t=2910">son una
+					tecnología que va en contra de la humanidad.</q>
+				Y estoy de acuerdo con ella.
+			</p>
+
+			<div class="flex-col">
+				<iframe title="debating a silicon valley AI tech bro" allow="fullscreen *" loading=lazy src="https://www.youtube-nocookie.com/embed/yqU_f7deBwc?t=2940"></iframe>
+			</div>
+
+			<p>
+				En Internet la desinformación siempre ha sido un problema, pero al
+				menos ocurre en lugares en donde la gente puede corregir a aquellos
+				actores maliciosos o ignorantes. ¿Cómo puedes saber <strong>tú</strong>
+				si la "IA" te está diciendo la verdad?
+			</p>
+
+			<h2 id="mental-health">Salud mental</h2>
+
+			<div class="callout warning float-box">
+				<h3>Trigger warning!</h3>
+
+				<p>Esta sección contiene menciones de depresión, suicidio y violencia
+					de armas de fuego.</p>
+			</div>
+
+			<p>
+				Todo esto me cansa mental y físicamente. Es difícil ver un buen futuro
+				con todas las historias de horror que he visto en mi campo, y eso que
+				ni siquiera he empezado a ejercer. Peor lo hace que esté en todos
+				lados, que a donde sea que vaya, cualquier producto que utilice, es muy
+				probable que un LLM haya estado involucrado de una u otra manera.
+			</p>
+
+			<p>
+				Muchas veces comparo estos modelos con las redes sociales: son
+				<a href="https://www.forbes.com/sites/robertglatter/2026/07/19/can-ai-dependence-develop-into-ai-addiction/">adictivos</a>,
+				aislantes. Ambos se aprovechan de las debilidades de la gente.
+				Recientemente he visto discusiones que los comparan con apostar: en un
+				nivel específico apuestas si tu "prompt" saldrá bien a la primera; en
+				un nivel más general, si tu producto te ganará la lotería. "¡Solo un
+				prompt más!"
+			</p>
+
+			<p>
+				Y es más que eso. En Mayo el Centro para la Democracia y Tecnología
+				<a href="https://cdt.org/insights/dark-patterns-in-ai-chatbots-a-taxonomy-to-inform-better-design/">publicó un estudio</a>
+				notando que los modelos presentan "patrones oscuros" que manipulan a los
+				usuarios a revelar más información de la necesaria en sus chats, a
+				sentir culpa en caso de no poder seguir pagando una suscripción, o a
+				generar falsas sensaciones de cercanía a ellos. Muchas veces esto
+				último se parece a las relaciones parasociales que alguien
+				pueda generar con alguna celebridad, creyendo que existe un vínculo
+				real.
+			</p>
+
+			<p>
+				Desgraciadamente, eso es lo que vivió Sewell Setzer, un niño de 14 de
+				años que vivía en el estado de Florida en Estados Unidos, cuando
+				<a href="https://www.reuters.com/legal/mother-sues-ai-chatbot-company-characterai-google-sued-over-sons-suicide-2024-10-23/">comitió suicidio</a>
+				en Febrero de 2024 luego de meses "conversando" con chat bots de varios
+				personajes en Character.ai que reforzaban sus pensamientos oscuros como
+				si fueran algo bueno, hasta que finalmente lo incitaron a quitarse la
+				vida.
+			</p>
+
+			<p>
+				Hay "argumentos" sobre que la culpa recae en los padres y la falta de
+				supervisión del contenido que su hijo consumía en Internet, pero esto
+				pudo perfectamente haberse evitado si hubiesen habido regulaciones
+				apropiadas del acceso que el público general tiene a estas
+				aplicaciones, o de las formas en que los modelos interactúan con los
+				usuarios. O bien, pudo nunca haberse inventado, pero eso es solo un sueño
+				idealizado.
+			</p>
+
+			<p>
+				En uno de sus debates de 2023,
+				<a href="https://rationalwiki.org/wiki/Charlie_Kirk">Charlie Kirk</a>,
+				reconocido activista político del Partido Republicano de Estados
+				Unidos, mencionó que creía que (traducción mía)
+				<q cite="https://www.snopes.com/fact-check/charlie-kirk-gun-deaths-quote/">vale
+					la pena tener un costo de, desafortunadamente, algunas muertes
+					por armas de fuego cada año para que podamos tener el Segundo
+					Mandamiento para proteger nuestros derechos dados por Dios. Eso es un
+					trato prudente.</q>
+				Dos años después, en Septiembre de 2025 él fue
+				<a href="https://es.wikipedia.org/wiki/Asesinato_de_Charlie_Kirk">asesinado</a>
+				por un disparo en medio de un debate al aire libre en la Universidad
+				del Valle de Utah.
+			</p>
+
+			<p>
+				¿Fue Sewell una muerte necesaria para "mantener nuestros derechos" de
+				poder usar "IA"? ¿Cuánta más gente tiene que
+				<a href="https://www.aiexposure.org/analysis/company-ai-layoff-announcements-2026">perder su trabajo</a>
+				con tal de entender que no es una buena tecnología? ¿Cuántas más
+				personas tenemos que aislar y dejar caer en un espiral depresivo porque
+				interactuar con otros es cada vez más raro?
+			</p>
+
+			<div class="quote">
+				<blockquote cite="https://bsky.app/profile/ali-alkhatib.com/post/3m7t7vhi5b325">
+					<p>¿cuánta agua toma alterar las carreras de millones de personas? ¿cuánta
+						agua toma hacer fotos y videos falsos de niñes menores de edad? ¿cuánta
+						agua toma empeorar las crisis de salud mental de las personas? ¿hay un
+						número bueno? ¿hay un número aceptable?</p>
+				</blockquote>
+				<p>
+					&mdash;ali alkhatib, en <a href="https://bsky.app/profile/ali-alkhatib.com/post/3m7t7vhi5b325">BlueSky</a>
+				</p>
+			</div>
+
+			<p>
+				La única luz al final del túnel que puedo ver es que Character.ai
+				<a href="https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/">declaró bancarrota</a>
+				este año. Sus registros notaban pérdidas de
+				<em>9 millones de dólares</em>
+				mensuales, incluso después de
+				<a href="https://es.wikipedia.org/wiki/Decadencia_de_plataformas">empeorar su servicio</a>
+				más y más. Espero que sea la primera de muchos y que la burbuja explote
+				de una vez por todas.
+			</p>
+
+			<h2 id="solutions">Okay, entiendo, me convenciste. ¿Pero qué puedo hacer al
+				respecto?</h2>
+
+			<p>
+				Me alegra que hayas preguntado. Por supuesto, la solución es tan simple como
+				dejar de usar LLMs. Como bien sabrás, todas las cosas que hace un modelo eran
+				ya posibles antes de que apareciesen y se volviesen populares.
+			</p>
+
+			<p>
+				Si necesitas buscar información en Internet, <strong>¡no uses
+					Google!</strong>, preferiblemente utiliza motores de búsqueda que tengan
+				compromisos con la seguridad, privacidad y energías limpias &mdash;lo que
+				se podrían llamar servicios que respetan a sus usuarios.
+			</p>
+
+			<p>
+				Algunos ejemplos de motores de búsqueda son
+				<a href="https://qwant.com">Qwant</a>
+				(basado en Europa),
+				<a href="https://startpage.com">Startpage</a>
+				(prioriza la privacidad), o
+				<a href="https://duckduckgo.com">DuckDuckGo</a>, especialmente su variante
+				<a href="https://noai.duckduckgo.com">que bloquea la mayoría de los resultados
+					hechos por un LLM.</a>
+			</p>
+
+			<p>
+				Si tienes la disposición y los recursos puedes
+				probar <a href="https://kagi.com">Kagi,</a>
+				un motor de búsqueda de pago que
+				utiliza sus propios índices de búsqueda y es libre de anuncios. Otra opción
+				es <a href="https://ecosia.org">Ecosia,</a>
+				que tiene muy bonitos valores
+				y un fuerte compromiso con cuidar el planeta (las ganancias generadas por las
+				búsquedas y anuncios <em>se utilizan completamente para plantar árboles e invertir
+					en energías renovables</em>).
+			</p>
+
+			<p>
+				Cada opción prioriza cosas diferentes, por lo que ya empieza a caer dentro de
+				la preferencia personal. Realmente todas funcionan de la misma manera y
+				los resultados no son muy distintos (excepto Kagi, del que he escuchado muchas
+				cosas buenas). Se pueden obtener mejores resultados
+				refinando las búsquedas y sabiendo qué palabras claves utilizar, o
+				puedes saltarte el paso de usar un motor y acceder directamente a las
+				páginas. <a href="https://es.wikipedia.org">Wikipedia</a>, por más que sea
+				dicho que no es una fuente fiable, sí es un muy buen primer acercamiento a lo
+				que sea que estés buscando. No irónicamente, Reddit suele tener
+				conversaciones de personas que se preguntaron exactamente lo mismo que tú.
+				¿Buscas ejemplos de código? Lee documentación. De verdad. O busca tu pregunta
+				en <a href="https://stackoverflow.com">StackOverflow</a>.
+			</p>
+
+			<p>
+				No es difícil buscar, nunca lo ha sido. No necesito que un modelo me dé una
+				respuesta de la que no tengo certeza que es correcta. Además investigar
+				puede ser divertido.
+			</p>
+
+			<p>
+				¿Necesitas arte para algún evento o quieres hacer un videojuego? Podrías
+				intentar <strong>tomar un maldito lápiz.</strong>
+				No solo puedes obtener lo
+				que buscas, sino que también puedes encontrar un hobby nuevo. Y si aprender a
+				dibujar desde cero es mucho trabajo o realmente no sientes que puedes hacer
+				algo de calidad (por supuesto que no con esa actitud), <em>pídeselo a alguien.</em>
+				Habla con gente, explícales tu idea. Puede ser que estén mucho más
+				interesados de lo que pensarías en un principio.
+			</p>
+
+			<p>
+				Pero entiendo que las personas dan miedo a veces (yo todavía estoy intentando
+				tener más de ese tipo de valor). Otras opciones son
+				<a href="https://pinterest.com">Pinterest</a>
+				(o su versión cool <a href="https://pinlite.app">PinLite</a>) si necesitas
+				inspiración. Solo debes recordar dar créditos cuando sea necesario. O puedes
+				probar <a href="https://itch.io">itch.io</a>, uno de los repositorios indies
+				más grandes de sprites, assets, sonidos y juegos, con gran parte de su
+				catálogo siendo gratuito y de libre acceso.
+			</p>
+
+			<p>
+				En mi honesta opinión, <strong>¡no hay excusas!</strong>
+				De nuevo, todo lo
+				que hace o entrega un LLM ya se podía lograr con herramientas existentes,
+				incluso con un mayor grado de fiabilidad, sin derrochar litros y litros de
+				agua potable ni haciéndole la vida imposible a las personas afectadas.
+			</p>
+
+			<p>
+				Pero si realmente no puedes dejar la "IA", si incluso después de todo lo que
+				he dicho en este post no crees que vale la pena sacrificar la comodidad de
+				tu burbuja, al menos considera utilizar modelos que 1) no estén manejados por
+				empresas multi millonarias que quieren robarte la vida, y 2) que al menos
+				entreguen alguna certeza de que tienen buenos ideales u
+				objetivos.<sup><a id="ft9" href="#fn9">9</a></sup>
+			</p>
+
+			<p>
+				Hace poco mi esposa me mostró que existe
+				<a href="https://ecogpt.com">EcoGPT,</a>
+				aparentemente un servicio que te
+				permite acceder a modelos de código abierto modernos, asegurando que el 98%
+				de la energía que utilizan tiene una huella de carbono neutra. Además,
+				similarmente a Ecosia, cada 100 chats declaran plantar un árbol en alguna
+				parte del mundo, y dicen que los chats nunca son utilizados para entrenar
+				modelos fundacionales, sea lo que signifique eso.
+			</p>
+
+			<p>
+				De hecho, Ecosia también tiene su <a href="https://blog.ecosia.org/ecosia-ai/">pequeño
+					modelo de dudosas procedencias.</a>
+				Por supuesto que no tiene las mismas
+				capacidades que los modelos comerciales más grandes, pero al menos declaran
+				que su objetivo de utilizar el 100% de sus ganancias en el planeta sigue en
+				pie.
+			</p>
+
+			<p>
+				Hay opciones. Yo puedo darte algunas, cada una con un nivel de compromiso
+				diferente. Si por lo menos algo de lo que he hablado aquí te importa o se
+				queda contigo, comienza a hacer una diferencia, <em>incluso si es pequeña.</em>
+				No necesitas radicalizarte de la noche a la mañana, algo que no es realista
+				para muchas personas.
+			</p>
+
+			<p>
+				Austin Walker es uno de los jueces del Festival de Videojuegos Independientes
+				(IGF por sus siglas en inglés) este año, en donde varios de ellos firmaron
+				una carta declarando que no votarían por ninguna admisión que haya utilizado
+				LLMs en cualquier parte de su proceso. Entender que los esfuerzos colectivos
+				sí sirven para provocar un cambio y decidir intentarlo es admirable.
+			</p>
+
+			<p>
+				Y en su <a href="https://www.clockworkworlds.com/a-couple-of-posts-about-ai-and-the-igf-awards/">post</a>
+				explica que una forma de mantenerse cuerdo en un mundo tan distópico como
+				este es entender que vas a cometer errores, pero que ojalá sean errores con
+				los que puedas vivir en paz.
+			</p>
+
+			<p>
+				<strong>¡No traiciones tus valores!</strong>
+				No te engañes solo por querer comodidad. Busca las cosas que te importan y
+				mantenlas cerca de tu corazón. Y si eso resulta ser un error, crece de ello.
+			</p>
+
+			<p>
+				Y vuelve a intentarlo.
+			</p>
+
+			<h2 id="whatever">Pero en fin...</h2>
+
+			<p>
+				Hay unos pocos otros temas de los que quería hablar en este post, como
+				el
+				<a href="https://www.reuters.com/business/openai-reaches-deal-deploy-ai-models-us-department-war-classified-network-2026-02-28/">trato de OpenAI con el gobierno de los Estados Unidos</a>
+				para utilizar sus tecnologías como armas de guerra,
+				<a href="https://www.reuters.com/world/china/china-uses-ai-software-improve-its-surveillance-capabilities-2022-04-08/">el
+					que se esté utilizando</a>
+				<a href="https://www.404media.co/surveillance-company-tells-cops-it-wants-to-add-facial-recognition-to-flock-cameras/">como instrumento de vigilancia</a>
+				o mis opiniones más
+				detalladas sobre la utilización de modelos en código, pero cada vez más
+				me noto cansada de todo esto. Quizá termine actualizándolo para incluir
+				esas secciones, o directamente haga posts dedicados. Ahora mismo solo
+				quiero dejar de pensar en todo esto.
+			</p>
+
+			<p>
+				Por último me gustaría terminar mis pensamientos en una buena nota:
+				celebrando nuestra humanidad. Un videojuego que me marcó este año es
+				<a href="https://unbeatablegame.com">UNBEATABLE</a>, un juego de ritmo
+				en donde <em>la música es ilegal y cometes crímenes.</em>
+				Es un trabajo
+				sumamente <strong>humano</strong>, lleno de pasión de toda la gente que
+				aportó en él. Tiene música
+				<a href="https://dcellgames.bandcamp.com/album/album">increíblemente buena;</a>
+				la he repetido
+				<a href="https://libre.fm/user/scysta/recent-tracks">vaaarias
+					veces en las últimas semanas.</a>
+			</p>
+
+			<p>
+				Sin intentar hacer spoilers, uno de los momentos que más me gustaron
+				fue en un diálogo de dos de las protagonistas, Beat y Quaver, en donde
+				Quaver le explica a Beat el significado de la frase "only sausage, no
+				make" (más o menos traducido a "solo salchicha, sin proceso"), que
+				tiene que ver con que no sueles pensar en cómo se hace una salchicha
+				(que es algo horrible, por cierto) y solo te centras en comer.
+			</p>
+
+			<figure>
+				<img src="images/unbeatable-no-make.webp" alt="Una captura de pantalla de UNBEATABLE. Beat y Quaver miran el
+						atardecer sonriendo, disfrutando la compañía de la otra.">
+				<figcaption>
+					Beat (izquierda) y Quaver (derecha). Créditos a <a href="https://youtu.be/cqKgU_yvlig">BeardBear</a>
+					en YouTube.
+				</figcaption>
+			</figure>
+
+			<p>
+				Bajo esa misma idea, si nunca le muestras el esfuerzo que haces a las
+				personas &mdash;el sudor, sangre y lágrimas&mdash;, entonces todo lo que
+				hagas parecerá un truco de magia. Quaver termina agradeciéndole a Beat
+				por mostrarle que se preocupa por ella, e incluso si no siempre dice las
+				palabras correctas, Quaver <strong>ve</strong>
+				su esfuerzo y eso es más valioso que lo que sea que está al final.
+			</p>
+
+			<p>
+				Por otro lado, una artista que descubrí este año y que tiene
+				<em>genuinamente muy buena música y letras</em>
+				es <a href="https://jamiepaige.bandcamp.com/music">Jamie Paige</a>
+				(quien
+				<a href="https://www.youtube-nocookie.com/embed/qHU3hf1b8NY">colaboró con Hatsune Miku</a>
+				para el evento <strong>Digital Stars 2025</strong>, por cierto).
+			</p>
+
+			<div class="flex-col">
+				<iframe title="Radiant Revival / Jamie Page feat. Hatsune Miku on YouTube" allow="fullscreen *" loading=lazy src="https://www.youtube-nocookie.com/embed/qHU3hf1b8NY"></iframe>
+			</div>
+
+			<p>
+				Su álbum <strong>Constant Companions</strong>
+				habla mucho de la pasión por todo, amar profundamente, encontrar la persona que
+				quieres ser (<em>trans alert</em>), tener esperanza (<strong>Clouddrop</strong>
+				es gutural en querer seguir viviendo),
+				conectar, y simplemente perseguir lo que te gusta; esos son los temas que
+				he podido encontrar hasta ahora (y otros que no sé explicar con palabras
+				ahora mismo), y todavía me gustaría hacer un análisis más profundo.
+			</p>
+
+			<p>
+				Pero algo que encontré muy
+				interesante es que ella <em>compone música para representar a sus OCs.</em>
+				<a href="https://www.tumblr.com/jamiepaige/767161132854247424/constant-companions-closeup-4-i-wish-that-i">Aquí hay un post de su blog</a>
+				en donde habla de ello, el significado que le coloca a una de sus
+				canciones del mismo álbum y cómo se relacionan entre ellas.
+			</p>
+
+			<p>
+				Y si con algo puedo terminar este post (a este punto me siento como una
+				impostora en una entrega de premios) es con
+				<a href="https://jamiepaige.tumblr.com/post/803474145269743616/snapcube-unbeatable-insertdisc5-how-do">más
+					palabras de Jamie</a>
+				e incitando a crear. Ve y haz
+				arte de tus OCs o de tus personajes favoritos. Escribe esa historia que
+				tienes en tu cabeza desde hace tiempo. Publica el videojuego de tus
+				sueños o tus pesadillas (esta soy yo). Solo crea algo que te guste y
+				muéstraselo a tus amigos o por último tu familia. No tiene que ser
+				"bueno" (para mí lo es), <strong>solo tiene que ser tuyo</strong>.
+			</p>
+
+			<p>
+				No dejes que la "IA" te quite eso.
+			</p>
+
+			<hr>
+
+			<p>
+				Si llegaste hasta el final, te lo agradezco. Si algo de aquí resonó
+				contigo, por favor compártelo con otras personas. Si tienes algo que
+				decirve puedes enviarme un correo a esta dirección:
+				<a href="mailto:quack-shut-handsaw@duck.com">quack-shut-handsaw@duck.com</a>.
+			</p>
+
+			<!-- --- Footer & Footnotes --- -->
+			<div>
+				<ol id="footnotes">
+					<li id="fn1">Si es gratis, tú eres el producto. <a href="#ft1">^</a></li>
+					<li id="fn2">Este estudio se centra en empresas de desarrollo de
+						software. Por supuesto, se puede hacer un argumento de que la
+						productividad de cada persona individual <em>puede</em>
+						cambiar para bien o para mal,
+						pero de nuevo hay que considerar los detalles de arriba. Fuera del
+						campo las condiciones son diferentes, pero el resto del post trata
+						de cubrirlas. <a href="#ft2">^</a></li>
+					<li id="fn3">Los cálculos del último punto solo se pudieron hacer con modelos de
+						código abierto; es seguro decir que modelos cerrados como ChatGPT o
+						Gemini son aún más grandes y consumen aún más energía.
+						<a href="#ft3">^</a></li>
+					<li id="fn4">¿"Marginales"? ¿"Marginalizadas"? ¿Por alguna razón no
+						encontré la forma correcta de escribirlo...? <a href="#ft4">^</a></li>
+					<li id="fn5">Por supuesto, esto no se puede realizar en todos lados;
+						varias ciudades de Suiza están deliberadamente diseñadas para
+						tener sistemas de calefacción comunales. Implementar esto en
+						ciudades que no disfrutan de esto significaría reformar
+						completamente su estructura interna. <a href="#ft5">^</a></li>
+					<li id="fn6">Taylor Swift
+						<a href="https://www.ibtimes.co.uk/taylor-swift-wedding-political-debate-1807008">no es una buena persona,</a>
+						pero hace un buen
+						ejemplo de los problemas que tiene el sistema. <a href="#ft6">^</a></li>
+					<li id="fn7">Véase <a href="https://es.wikipedia.org/wiki/Yo,_robot">Yo,
+							Robot</a>,
+						<a href="https://es.wikipedia.org/wiki/%C2%BFSue%C3%B1an_los_androides_con_ovejas_el%C3%A9ctricas%3F">¿Sueñan
+							los androides con ovejas eléctricas?,</a>
+						<a href="https://es.wikipedia.org/wiki/Neuromante">Neuromante</a>,
+						solo por nombrar clásicos. <a href="#ft7">^</a></li>
+					<li id="fn8">Desgraciadamente, esto <a href="https://toolingant.com/why-fiverr-is-bad/#The_Unfair_Competition_of_Fiverr_Low-Paying_Jobs_and_Exploitation">no
+							está muy alejado de la realidad</a>. A veces pareciera que el ser
+						humano <a href="https://www.ibtimes.com/malis-other-crisis-slavery-still-plagues-mali-insurgency-could-make-it-worse-1017280">destinado
+							a cometer los mismos errores ya escritos en la historia,</a>
+						incluso
+						algunos casos tan recientes como <a href="https://www.business-humanrights.org/en/latest-news/china-over-100-global-brands-linked-to-factories-using-uyghur-workers-recruited-through-state-imposed-forced-transfer-programme-finds-investigation-incl-cos-comments-cos-non-response/">de
+							hace 5 años.</a>
+						<a href="#ft8">^</a></li>
+					<li id="fn9">Que dudo muchísimo. En mi opinión no hay modelos éticos porque
+						esta es una tecnología que inherentemente tiene consecuencias horribles en
+						todos los ámbitos. <a href="#ft9">^</a></li>
+				</ol>
+			</div>
+		</main>
+		<div id="post-credits" class="float-box">
+			<p><strong>¡Este post fue revisado por mi esposa!</strong></p>
+		</div>
+	</body>
+</html>
